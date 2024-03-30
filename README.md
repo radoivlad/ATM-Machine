@@ -34,7 +34,8 @@ logback-classic
 4. Top-left corner: **File -> New -> Project from Version Control**;
 5. Select Git as **Version control**;
 6. Paste repository link in **URL** field;
-7. Open the **Main** class and run the ATM-Machine (Shift + F10);
+7. If **Maven** is not installed -> IntelliJ displays a message to install it, follow instructions provided (Maven will automatically configure the **dependencies** for you);
+8. Open the **Main** class and run the ATM-Machine (Shift + F10);
 
 # b. Clone repository to local drive, open with IntelliJ (locally):
 
@@ -44,6 +45,8 @@ logback-classic
 4. Open IntelliJ;
 5. Top-left corner: **File -> Open**;
 6. Select the folder we cloned earlier;
-7. Open the **Main** class and run the ATM-Machine (Shift + F10);
+7. If **Maven** is not installed -> IntelliJ displays a message to install it, follow instructions provided (Maven will automatically configure the **dependencies** for you);
+8. Open the **Main** class and run the ATM-Machine (Shift + F10);
 
-# Finally, have fun! :D //really open to any suggestions, hit me up
+# Finally, have fun && happy navigating! :D
+//really open to any suggestions, hit me up
