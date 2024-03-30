@@ -23,7 +23,7 @@ The user can switch between multiple menu variants, in accordance to desired out
 
 1. Press the green button labelled "Code" (top right corner of the project files) to copy the repository link;
 2. Alternatively, you can copy it directly from here: https://github.com/radoivlad/ATM-Machine.git 
-3. Open IntelliJ;
+3. Open IntelliJ (make sure you have **Intellij Community Edition** installed);
 4. Top-left corner: **File -> New -> Project from Version Control**;
 5. Select Git as **Version control**;
 6. Paste repository link in **URL** field;
@@ -31,4 +31,12 @@ The user can switch between multiple menu variants, in accordance to desired out
 
 # b. Clone repository to local drive, open with IntelliJ (locally):
 
-1. 
+1. Navigate to your local drive repository folder (where you would like to have the project cloned);
+2. **Right-click -> Open Git Bash here** (make sure you have **Git** installed);
+3. Type: **git clone https://github.com/radoivlad/ATM-Machine.git** (this will create a clone of the project in the current directory);
+4. Open IntelliJ;
+5. Top-left corner: **File -> Open**;
+6. Select the folder we cloned earlier;
+7. Open the **Main** class and run the ATM-Machine (Shift + F10);
+
+# Finally, have fun! :D //really open to any suggestions, hit me up
