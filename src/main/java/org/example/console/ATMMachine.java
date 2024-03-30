@@ -9,17 +9,34 @@ import org.slf4j.LoggerFactory;
 
 import static org.example.Main.scanner;
 
+/**
+ * The interactive console class;
+ * The interoperable menus are generated using the methods below;
+ * Using static helper methods to validate all input given;
+ */
+
 public class ATMMachine {
 
+    //our helper objects;
+    //LOGGER - displaying information throughout code execution;
     private static final Logger LOGGER = LoggerFactory.getLogger(ATMMachine.class);
+
+    //existingTestUser - created for the purpose of main menu option 3 (ATM trial use);
     private static BankAccount existingTestUser = new BankAccount("Test User",
             "12345678", 10000);
 
+    //newAccount - populated with values passed while creating a new account;
+    //newAccountCreated - boolean that is set to true once new account gets created;
     private static BankAccount newAccount;
-    private static boolean flag = true;
-    private static Random random = new Random();
     private static boolean newAccountCreated = false;
 
+    //flag used for while loops (proper functioning of menus);
+    private static boolean flag = true;
+
+    //random - used for generating a random 8-digit account number;
+    private static Random random = new Random();
+
+    //main menu of the ATM machine;
     public static void accessATMMachine() throws BankAccountOperationException {
 
 
@@ -101,6 +118,7 @@ public class ATMMachine {
         }
     }
 
+    //option 2 of the main menu - creating a new account;
     private static void createNewAccount() throws BankAccountOperationException {
 
         System.out.println("Welcome to our service desk. We shall proceed with creating your account with us;\n" +
@@ -156,6 +174,7 @@ public class ATMMachine {
         newAccountCreated = true;
     }
 
+    //option 1 and 3 of the main menu (1 - for new account, 3 - for trial use);
     private static void displayATMOptions(BankAccount account) {
 
         boolean flag = true;
@@ -208,6 +227,7 @@ public class ATMMachine {
         }
     }
 
+    //option 1 of the main menu (to access ATM options, we need to enter correct PIN);
     private static boolean validatePinNumber(BankAccount account) {
 
         while (flag) {
@@ -230,6 +250,7 @@ public class ATMMachine {
         return false;
     }
 
+    //helper methods for displaying information and validating input;
     private static void displayOpeningMenu() {
         System.out.println("""
                 Your options are the following:
