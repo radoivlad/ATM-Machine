@@ -18,8 +18,8 @@ Any errors that may occur with wrong input given to the console, either format (
 The user can switch between multiple menu variants, in accordance to desired output: main menu, create new account, operate ATM options, validate account PIN for accessing ATM.
 
 **MAVEN Dependencies used:**
-**slf4j-api**
-**logback-classic**
+slf4j-api
+logback-classic
 
 **-> For proper functioning of the Logger object;**
 
