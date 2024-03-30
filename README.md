@@ -1,4 +1,4 @@
-# ATM-Machine (installation guide below)
+# ATM-Machine (INSTALLATION GUIDE BELOW)
 
 Hello and welcome to ATM-Machine! :)
 
