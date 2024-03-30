@@ -49,4 +49,4 @@ logback-classic
 8. Open the **Main** class and run the ATM-Machine (Shift + F10);
 
 # Finally, have fun && happy navigating! :D
-//really open to any suggestions, hit me up
+//really open to any suggestions or improvement ideas, hit me up
