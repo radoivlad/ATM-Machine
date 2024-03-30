@@ -20,5 +20,15 @@ The user can switch between multiple menu variants, in accordance to desired out
 # HOW TO INSTALL AND USE THE PROJECT
 
 # a. Open with Intellij, using repository link:
+
 1. Press the green button labelled "Code" (top right corner of the project files) to copy the repository link;
-2. Alternatively, you can copy it directly from here: 
+2. Alternatively, you can copy it directly from here: https://github.com/radoivlad/ATM-Machine.git 
+3. Open IntelliJ;
+4. Top-left corner: **File -> New -> Project from Version Control**;
+5. Select Git as **Version control**;
+6. Paste repository link in **URL** field;
+7. Open the **Main** class and run the ATM-Machine (Shift + F10);
+
+# b. Clone repository to local drive, open with IntelliJ (locally):
+
+1. 
