@@ -19,4 +19,6 @@ The user can switch between multiple menu variants, in accordance to desired out
 
 # HOW TO INSTALL AND USE THE PROJECT
 
-1. 
+# a. Open with Intellij, using repository link:
+1. Press the green button labelled "Code" (top right corner of the project files) to copy the repository link;
+2. Alternatively, you can copy it directly from here: 
